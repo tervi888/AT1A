@@ -1,2 +1,4 @@
 rootProject.name = 'A1'
+include 'src:test:java'
+findProject(':src:test:java')?.name = 'java'
 

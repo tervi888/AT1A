@@ -15,9 +15,11 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.testng:testng:7.1.0'
+    testImplementation 'org.testng:testng:8.0.0'
 
 }
 
 test {
-
+    useTestNG()
 }
